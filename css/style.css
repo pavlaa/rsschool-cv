@@ -1,0 +1,186 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body {
+   font-family: 'Poppins', sans-serif;
+   color: #565251;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+._container {
+   max-width: 1140px;
+   margin: 0 auto;
+}
+._title {
+   font-size: 36px;
+   font-weight: 700;
+   margin: 10px 0px 10px 0px;
+}
+._plate {
+   width: 200px;
+   height: 50px;
+   line-height: 50px;
+   color: #fff;
+   font-size: 36px;
+   font-weight: 700;
+   background-color: #565251;
+   margin: 10px auto;
+   text-align: center;
+}
+/*NAME------------------------------------------------------------------------*/
+.name {
+   padding: 10px;
+}
+.name__container {
+   display: flex;
+   min-height: 300px;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+.name__image {
+   padding: 10px;
+}
+.name__image img{
+   background: #18a032;
+   padding: 10px;
+   width: 240px;
+   height: 240px;
+}
+.image__foto img {
+   margin: 0 auto;
+   width: 250px;
+   height: 250px;
+
+}
+.info__title {
+   font-size: 40px;
+   font-weight: 700;
+}
+.info__subtitle {
+   color: #18a032;
+   font-size: 30px;
+   font-weight: 400;
+}
+/*-------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------*/
+.allinfo {
+   padding: 10px;
+   background-color: #18a032;
+   flex: 1 1 auto;
+}
+.allinfo__container {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+}
+.allinfo__left {
+   padding: 10px;
+   background-color: #fff;
+   flex: 0 0 750px;
+}
+.left__about {
+   margin: 10px 0px;
+}
+.about__subtitle {
+   font-size: 24px;
+   line-height: 36px;
+}
+.edu__list {
+   font-size: 24px;
+   line-height: 36px;
+}
+.edu__list li{
+   background: url('../img/icon/dot1.svg') left/15px 15px no-repeat;
+   padding: 0px 0px 0px 25px;
+}
+
+.allinfo__right {
+   
+   align-self: flex-start;
+   flex: 1 1 auto;
+   background-color: #18a032;
+   padding: 10px; 
+}
+.contacts__dscr {
+   font-size: 18px;
+   line-height: 25px;
+}
+.contacts__dscr p:nth-child(1) {
+   background: url('../img/icon/loc.svg') left/20px 20px no-repeat;
+   padding: 0px 0px 0px 25px;
+}
+.contacts__dscr p:nth-child(2) {
+   background: url('../img/icon/phone.svg') left/20px 20px no-repeat;
+   padding: 0px 0px 0px 25px;
+}
+.contacts__dscr p:nth-child(3) {
+   background: url('../img/icon/email.svg') left/20px 20px no-repeat;
+   padding: 0px 0px 0px 25px;
+}
+.contacts__dscr p:nth-child(4) {
+   background: url('../img/icon/github.svg') left/20px 20px no-repeat;
+   padding: 0px 0px 0px 25px;
+}
+.contacts__dscr p:nth-child(5) {
+   background: url('../img/icon/telegram.svg') left/20px 20px no-repeat;
+   padding: 0px 0px 0px 25px;
+}
+.right__skills {
+   font-size: 18px;
+   line-height: 25px;
+}
+.right__skills li {
+   background: url('../img/icon/dot.svg') left/7px 7px no-repeat;
+   padding: 0px 0px 0px 15px;
+}
+.lang {
+   font-size: 18px;
+   line-height: 25px;
+}
+.lang p {
+   background: url('../img/icon/dot.svg') left/7px 7px no-repeat;
+   padding: 0px 0px 0px 15px;
+}
+/*-------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------*/
+footer {
+   background-color: #565251;
+}
+.footer__container {
+   padding: 20px;
+   min-height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer__container p {
+   color: #18a032;
+   font-weight: 700;
+   font-size: 15px;
+}
+.footer__rss {
+   width: 200px;
+}
+/*-------------------------------------------------------------------------*/
