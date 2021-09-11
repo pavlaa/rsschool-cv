@@ -25,3 +25,11 @@ function multiply(a, b){
 let result = multiply(20, 30);
 console.log(result);
 ```
+### **Education**
+* Belarusian National Technical University
+   * Specialty Power supply 
+* CS50 Course
+* RSSchool JS/Front-end (in process)
+
+### **Languages**
+* A1 (In the learning process)
