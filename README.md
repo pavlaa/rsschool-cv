@@ -1,1 +1,0 @@
-https://pavlaa.github.io/rsschool-cv/cv
