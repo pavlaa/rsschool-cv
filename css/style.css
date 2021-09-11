@@ -162,5 +162,25 @@ body {
    background: url('../img/icon/dot.svg') left/7px 7px no-repeat;
    padding: 0px 0px 0px 15px;
 }
+/*-------------------------------------------------------------------------*/
 
+/*-------------------------------------------------------------------------*/
+footer {
+   background-color: #565251;
+}
+.footer__container {
+   padding: 20px;
+   min-height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer__container p {
+   color: #18a032;
+   font-weight: 700;
+   font-size: 15px;
+}
+.footer__rss {
+   width: 200px;
+}
 /*-------------------------------------------------------------------------*/
