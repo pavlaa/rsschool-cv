@@ -148,23 +148,23 @@ body {
    font-size: 18px;
    line-height: 25px;
 }
-.contacts__dscr p:nth-child(1) {
+.contacts__dscr li:nth-child(1) {
    background: url('../img/icon/loc.svg') left/20px 20px no-repeat;
    padding: 0px 0px 0px 25px;
 }
-.contacts__dscr p:nth-child(2) {
+.contacts__dscr li:nth-child(2) {
    background: url('../img/icon/phone.svg') left/20px 20px no-repeat;
    padding: 0px 0px 0px 25px;
 }
-.contacts__dscr p:nth-child(3) {
+.contacts__dscr li:nth-child(3) {
    background: url('../img/icon/email.svg') left/20px 20px no-repeat;
    padding: 0px 0px 0px 25px;
 }
-.contacts__dscr p:nth-child(4) {
+.contacts__dscr li:nth-child(4) {
    background: url('../img/icon/github.svg') left/20px 20px no-repeat;
    padding: 0px 0px 0px 25px;
 }
-.contacts__dscr p:nth-child(5) {
+.contacts__dscr li:nth-child(5) {
    background: url('../img/icon/telegram.svg') left/20px 20px no-repeat;
    padding: 0px 0px 0px 25px;
 }
