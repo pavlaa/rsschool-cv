@@ -32,7 +32,7 @@ body {
 ._title {
    font-size: 36px;
    font-weight: 700;
-   margin: 10px 0px 10px 0px;
+   padding: 10px 0px 10px 0px;
 }
 ._plate {
    width: 200px;
@@ -46,32 +46,30 @@ body {
    text-align: center;
 }
 /*NAME------------------------------------------------------------------------*/
-.name {
+.header {
    padding: 10px;
 }
-.name__container {
+.header__container {
    display: flex;
-   min-height: 300px;
-   align-items: center;
-   justify-content: space-around;
+   flex-wrap: wrap;
    
 }
-.name__image {
+.header__info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header__image {
    padding: 10px;
 }
-.name__image img{
+.header__image img{
    background: #18a032;
    padding: 10px;
    width: 240px;
    height: 240px;
 }
-.image__foto img {
-   margin: 0 auto;
-   width: 250px;
-   height: 250px;
-
-}
 .info__title {
+   padding: 0px 0px 0px 0px;
    font-size: 40px;
    font-weight: 700;
 }
@@ -79,6 +77,30 @@ body {
    color: #18a032;
    font-size: 30px;
    font-weight: 400;
+} 
+@media (max-width: 992px) {
+   .header__image img{
+      width: 220px;
+      height: 220px;
+   }
+   .info__title {
+      font-size: 35px;
+   }
+   .info__subtitle {
+      font-size: 25px;
+   }
+}
+@media (max-width: 767px) {
+   .header__image img{
+      width: 150px;
+      height: 150px;
+   }
+   .info__title {
+      font-size: 30px;
+   }
+   .info__subtitle {
+      font-size: 20px;
+   }
 }
 /*-------------------------------------------------------------------------*/
 
@@ -97,7 +119,7 @@ body {
 .allinfo__left {
    padding: 10px;
    background-color: #fff;
-   flex: 0 0 750px;
+   flex: 0 1 70%;
 }
 .left__about {
    margin: 10px 0px;
@@ -154,13 +176,17 @@ body {
    background: url('../img/icon/dot.svg') left/7px 7px no-repeat;
    padding: 0px 0px 0px 15px;
 }
-.lang {
+.right__lang {
    font-size: 18px;
    line-height: 25px;
 }
-.lang p {
+.right__lang p {
    background: url('../img/icon/dot.svg') left/7px 7px no-repeat;
    padding: 0px 0px 0px 15px;
+}@media (max-width: 992px) {
+   .allinfo__left {
+   flex: 0 1 auto;
+   }
 }
 /*-------------------------------------------------------------------------*/
 
